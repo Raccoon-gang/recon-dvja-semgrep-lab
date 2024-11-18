@@ -23,6 +23,14 @@ are not required to install Java, Maven, MySQL Server, MySQL Workbench or run th
 
 You find the Labs for this training [here](https://github.com/Raccoon-gang/recon-dvja-semgrep-lab/wiki) in Lab 1 we also take care on the prerequisites and working SemGrep installation.
 
+This lab is designed to help you learn how to write custom rules for SemGrep and apply them to your codebase. The lab is divided into four parts:  
+1. **Introduction to SemGrep**: Get an overview of SemGrep, its capabilities, and how it can help you identify security vulnerabilities in your code.
+2. **Writing a Custom Rule**: Learn how to write custom rules in SemGrep, including defining sources and sinks, and linking them to detect potential vulnerabilities.
+3. **Applying the Custom Rule**: Apply the custom rule to your codebase to identify and fix security issues.
+4. **Immersive Mob Session**: Participate in a live session to scan your own repository with SemGrep and receive real-time feedback on the results.
+
+__Happy hacking and have fun! 🚀__
+
 
 
 ---
