@@ -18,6 +18,8 @@ for the following purpose:
 Clone this repository and Install [SemGrep CLI](https://semgrep.dev/docs/getting-started/installation) you 
 are not required to install Java, Maven, MySQL Server, MySQL Workbench or run the docker-compose file. 
 
+## SemGrep Slides
+The companion Slidedeck [Semgrep - From Zero to Hero](https://github.com/Raccoon-gang/recon-dvja-semgrep-lab/blob/main/docs/SemGrep%20-%20From%20Zero%20to%20Hero.pdf) is also present in this repository if you like to revist some of the parts. 
 
 ## SemGrep Labs
 
@@ -30,7 +32,6 @@ This lab is designed to help you learn how to write custom rules for SemGrep and
 4. **Immersive Mob Session**: Participate in a live session to scan your own repository with SemGrep and receive real-time feedback on the results.
 
 __Happy hacking and have fun! 🚀__
-
 
 
 ---
