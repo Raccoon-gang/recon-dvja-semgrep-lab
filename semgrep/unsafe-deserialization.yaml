@@ -1,0 +1,20 @@
+  rules:
+  - id: unsafe-deserialization
+    languages: [java]
+    message: "Unsafe deserialization detected"
+    metadata:
+      cwe: "CWE-502: Deserialization of Untrusted Data"
+      owasp: "A8:2017-Insecure Deserialization"
+      description: "This rule detects potential insecure deserialization vulnerabilities in Java code."
+    severity: ERROR
+    mode: taint
+    taint:
+      sources:
+        - pattern: |
+            Base64.getDecoder().decode(...)
+      sinks:
+        - pattern: |
+            new String(...)
+      taints:
+        - source: $BASE64_COOKIE
+          sink: new String(Base64.getDecoder().decode($BASE64_COOKIE))

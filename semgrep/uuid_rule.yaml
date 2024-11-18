@@ -1,0 +1,14 @@
+rules:
+  - id: uuid-leak
+    languages: [java]
+    message: "UUID should not be leaked avoid public access to secretUUID"
+    severity: ERROR
+    patterns:
+      - pattern: |
+          public $TYPE $METHOD(...) {
+              return this.secureClass.getSecretUUID();
+          }
+      - pattern-not: |
+          private $TYPE $METHOD(...) {
+              return this.secureClass.getSecretUUID();
+          }
