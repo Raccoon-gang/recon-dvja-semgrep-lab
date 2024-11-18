@@ -21,6 +21,8 @@ are not required to install Java, Maven, MySQL Server, MySQL Workbench or run th
 
 ## SemGrep Labs
 
+You find the Labs for this training [here](https://github.com/Raccoon-gang/recon-dvja-semgrep-lab/wiki) in Lab 1 we also take care on the prerequisites and working SemGrep installation.
+
 
 
 ---
